@@ -1,0 +1,28 @@
+﻿
+
+	"AI - Accounting" or short "Aicounting" assists a human person doing simple tasks when it comes to
+feeding an accounting DB with individual booking information. Sometimes it does its job correctly.
+
+
+	As a small extra the program also produces pictures of your dreams and interprets dreams. 
+You are prompted to explain your dream in short words.
+"Dream Catcher" is accessible in the tab menu. 
+
+	
+
+
+							 A   I    C   O   U   N   T   I   N   G
+							          (license: MIT license) 
+
+							          Author: Katyu-SHA512
+							     contact: katyusha512a@gmail.com
+									     December 2023
+										as an entry for 
+							Hack Together .NET: The Great .NET 8 Hack
+									organized by Microsoft
+
+
+
+
+Thank you Microsoft for providing access to those fantastic AI tools and doing this contest.
+--------------------------------------------------------------------------------------------------------------

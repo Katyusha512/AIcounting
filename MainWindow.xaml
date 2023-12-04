@@ -1,0 +1,295 @@
+﻿<Window x:Name="AICounting" x:Class="AIcounting.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AIcounting"
+        mc:Ignorable="d"
+        Title="Aiccounting" 
+        Height="720" 
+        Width="1280" 
+        WindowStartupLocation="CenterScreen" 
+        ResizeMode="NoResize" 
+        WindowStyle="ThreeDBorderWindow">
+    <Grid x:Name="MainWindowGridHolder">
+        <DockPanel x:Name="MainDockPanel" LastChildFill="False"/>
+        <Menu x:Name="MainMenu">
+            <MenuItem x:Name="Menu_File" Header="File">
+                <MenuItem x:Name="File_New" Header="New">
+                </MenuItem>
+                <Separator>
+                </Separator>
+                <MenuItem x:Name="File_Exit" Header="Exit" Click="File_Exit_Click">
+                </MenuItem>
+            </MenuItem>
+            <MenuItem x:Name="MenuAbout" Header="About">
+                <MenuItem x:Name="About_Info" Header="Info">
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <TabControl x:Name="MainTabs" Margin="10,35,52,99" Height="575">
+            <TabItem x:Name="BookingTab" Header="Booking" Width="75">
+                <Grid Height="634" Margin="0,0,-23,0">
+                    <UniformGrid x:Name="Booking_EntryTemplate" Rows="1" Columns="9" Margin="0,0,35,604" Height="30">
+                        <TextBlock Text="ID:" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" FontSize="11"/>
+                        <TextBlock Text="Date:" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" FontSize="11"/>
+                        <TextBlock Text="Source #" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" FontSize="11"/>
+                        <TextBlock Text="Debit Acc." HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" FontSize="11"/>
+                        <TextBlock Text="Credit Acc." HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" FontSize="11"/>
+                        <TextBlock Text="Text" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" FontSize="11"/>
+                        <TextBlock Text="Amount local" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" FontSize="11"/>
+                        <TextBlock Text="Currency" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" FontSize="11"/>
+                        <TextBlock Text="Amount foreign" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" FontSize="11"/>
+                    </UniformGrid>
+                    <Grid Background="#FFE5E5E5" Margin="0,0,-23,-87">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <!-- Input fields -->
+                        <UniformGrid x:Name="BookingMask" Rows="2" Columns="9" VerticalAlignment="Top" HorizontalAlignment="Left" Width="1200" Height="75" Grid.Row="1" Margin="8">
+                            <TextBlock Text="ID:" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10"/>
+                            <TextBlock Text="Date:" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10"/>
+                            <TextBlock Text="Source #" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10"/>
+                            <TextBlock Text="Debit Acc." HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10"/>
+                            <TextBlock Text="Credit Acc." HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10"/>
+                            <TextBlock Text="Text" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10"/>
+                            <TextBlock Text="Amount local" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10"/>
+                            <TextBlock Text="Currency" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10"/>
+                            <TextBlock Text="Amount foreign" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10"/>
+                            <TextBox VerticalContentAlignment="Center" x:Name="Booking_ID" HorizontalAlignment="Center" Width="70" Height="30" VerticalAlignment="Center" TextAlignment="Center"/>
+                            <DatePicker 
+                                VerticalContentAlignment="Center" 
+                                x:Name="Booking_Date" 
+                                HorizontalAlignment="Center" 
+                                VerticalAlignment="Center" 
+                                DisplayDate="01.01.2023"
+                                Text="01.01.2023"
+                                Width="100" 
+                                Height="30"/>
+                            <TextBox VerticalContentAlignment="Center" x:Name="Booking_Src" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Height="30"/>
+                            <TextBox VerticalContentAlignment="Center" x:Name="Booking_AccDebit" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Height="30"/>
+                            <TextBox VerticalContentAlignment="Center" x:Name="Booking_AccCredit" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100" Height="30"/>
+                            <TextBox VerticalContentAlignment="Center" x:Name="Booking_Text" HorizontalAlignment="Center" VerticalAlignment="Center" Width="140" Height="30"/>
+                            <TextBox 
+                                VerticalContentAlignment="Center" 
+                                x:Name="Booking_AmountLocal" 
+                                HorizontalAlignment="Center" 
+                                VerticalAlignment="Center" 
+                                TextAlignment="Center"
+                                KeyDown="Booking_AmountLocal_KeyDown"
+                                Width="100" 
+                                Height="30"/>
+                            <TextBox 
+                                x:Name="Booking_Currency" 
+                                HorizontalAlignment="Center" 
+                                VerticalAlignment="Center" 
+                                Text="USD"
+                                TextAlignment="Center"
+                                VerticalContentAlignment="Center"
+                                KeyDown="Booking_Currency_KeyDown"
+                                Width="70" 
+                                Height="30"/>
+                            <TextBox VerticalContentAlignment="Center" x:Name="Booking_AmountForeign" HorizontalAlignment="Center" VerticalAlignment="Center" Width="110" Height="30"/>
+                        </UniformGrid>
+
+                        <Rectangle HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" Grid.RowSpan="2" Stroke="DarkGreen" VerticalAlignment="Top" Width="1200"/>
+                        <Rectangle HorizontalAlignment="Left" Height="415" Margin="10,115,0,0" Grid.RowSpan="2" Stroke ="Green" VerticalAlignment="Top" Width="1200"/>
+                        <Button
+                            x:Name="Btn_Book"
+                            Content="Book" 
+                            HorizontalAlignment="Left" 
+                            Margin="1089,83,0,0" 
+                            Grid.Row="1"
+                            Click="Btn_Book_Click"
+                            VerticalAlignment="Top" Width="119" Height="27"/>
+                    </Grid>
+
+                    <Button
+                        x:Name="Btn_Example1Show"
+                        Content="Run Example 1"
+                        Click="Btn_Example1Show_Click"
+                        Width="100"
+                        Height="40"
+                        Margin="64,140,1021,454"/>
+                    <Button 
+                        x:Name="Btn_Example2Show"
+                        Content="Run Example 2"
+                        Click="Btn_Example2Show_Click"
+                        Width="100"
+                        Height="40"
+                        Margin="758,140,327,454"/>
+                    <TextBox 
+                        HorizontalAlignment="Left" 
+                        Margin="64,360,0,0" 
+                        TextWrapping="Wrap" 
+                        x:Name="ExampleTextBox_BotResponse"
+                        VerticalAlignment="Top" 
+                        Width="1071" 
+                        Height="126"/>
+                    <TextBox 
+                        HorizontalAlignment="Left" 
+                        Margin="64,191,0,0" 
+                        TextWrapping="Wrap" 
+                        x:Name="ExampleTextBox_Invoice"
+                        VerticalAlignment="Top" 
+                        Width="1071" 
+                        Height="126"/>
+
+
+                </Grid>
+
+            </TabItem>
+            <TabItem x:Name="BalanceSheetTab" HorizontalAlignment="Center" Height="20" Header="Balance Sheet" VerticalAlignment="Center" Width="100">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem x:Name="IncomeStatementTab" HorizontalAlignment="Center" Height="20" Header="Income Statement" VerticalAlignment="Center" Width="125">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem x:Name="AnnualReportTab" HorizontalAlignment="Center" Height="20" Header="Annual Report" VerticalAlignment="Center" Width="100">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem x:Name="CompanyTab" Header="Company Info" Width="100">
+                <Grid Height = "619"  Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Input fields -->
+                    <UniformGrid Rows="5" Columns="4" VerticalAlignment="Top" HorizontalAlignment="Left" Width="900" Height="200" Margin="0,0,0,10" Grid.Row="1">
+                        <TextBlock Text="Company Name:" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10"/>
+                        <TextBox x:Name="TBox_CompanyName" Text= "Placeholder" Margin="-100,0,10,0" Height="20"/>
+
+                        <TextBlock Text="Address1:" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10"/>
+                        <TextBox x:Name="TBox_Address1" Text= "Placeholder" Margin="-100,0,10,0" Height="20"/>
+
+                        <TextBlock Text="Address2:" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10"/>
+                        <TextBox x:Name="TBox_Address2" Text = "Placeholder"  Margin="-100,0,10,0" Height="20"/>
+
+                        <TextBlock Text="ZIP Code:" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10"/>
+                        <TextBox x:Name="TBox_ZIPCode" Text = "Placeholder"  Margin="-100,0,10,0" Height="20"/>
+
+                        <TextBlock Text="City:" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10"/>
+                        <TextBox x:Name="TBox_City" Text = "Placeholder"  Margin="-100,0,10,0" Height="20"/>
+
+                        <TextBlock Text="State:" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10"/>
+                        <TextBox x:Name="TBox_State" Text = "Placeholder"  Margin="-100,0,10,0" Height="20"/>
+
+                        <TextBlock Text="Country:" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10"/>
+                        <TextBox x:Name="TBox_Country"  Text = "Placeholder" Margin="-100,0,10,0" Height="20"/>
+                    </UniformGrid>
+
+                    <UniformGrid Rows="5" Columns="4" VerticalAlignment="Center" HorizontalAlignment="Left" Width="900" Height="200" Grid.Row="1">
+                        <TextBlock Text="Tax ID:" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10"/>
+                        <TextBox x:Name="TBox_TaxID" Margin="-100,0,10,0" Height="20"/>
+
+                        <TextBlock Text="Field of Business" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10"/>
+                        <ComboBox x:Name="CBox_Business" Margin="-100,0,10,0" Height="20" >
+                            <ComboBoxItem Content = "Agriculture" IsSelected="True"/>
+                            <ComboBoxItem Content = "Basic Metal Production"/>
+                            <ComboBoxItem Content = "Chemical industries"/>
+                            <ComboBoxItem Content = "Commerce"/>
+                            <ComboBoxItem Content = "Construction"/>
+                            <ComboBoxItem Content = "Education"/>
+                            <ComboBoxItem Content = "Financial services"/>
+                            <ComboBoxItem Content = "Food, Drink, Tobacco"/>
+                            <ComboBoxItem Content = "Forestry, Wood, Paper"/>
+                            <ComboBoxItem Content = "Health services"/>
+                            <ComboBoxItem Content = "Hotels, Tourism, Catering"/>
+                            <ComboBoxItem Content = "Mining"/>
+                            <ComboBoxItem Content = "Mechanical and electrical engineering"/>
+                            <ComboBoxItem Content = "Media, Culture, Graphical"/>
+                            <ComboBoxItem Content = "Oil and gas production/refining"/>
+                            <ComboBoxItem Content = "Postal and telecommunications services"/>
+                            <ComboBoxItem Content = "Public service"/>
+                            <ComboBoxItem Content = "Shipping, Ports, Fisheries"/>
+                            <ComboBoxItem Content = "Textiles, Clothing"/>
+                            <ComboBoxItem Content = "Transport"/>
+                            <ComboBoxItem Content = "Transport equipment manufacturing"/>
+                            <ComboBoxItem Content = "Utilities (water; gas; electricity)"/>
+                        </ComboBox>
+
+                        <TextBlock Text="Contact" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10"/>
+                        <TextBox x:Name="TBox_Contact" Margin="-100,0,10,0" Height="20"/>
+
+                        <TextBlock Text="Contact Phone #:" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10"/>
+                        <TextBox x:Name="TBox_PhoneNo" Margin="-100,0,10,0" Height="20"/>
+
+                        <TextBlock Text="Website:" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10"/>
+                        <TextBox x:Name="TBox_Website" Text="www.example.com" Margin="-100,0,10,0" Height="20"/>
+
+                        <TextBlock Text="Email Address:" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10"/>
+                        <TextBox x:Name="TBox_EmailAddr" Text="info@example.com" Margin="-100,0,10,0" Height="20"/>
+
+                        <TextBlock Text="Comment" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10"/>
+                        <TextBox x:Name="TBox_Comment" Margin="-100,11,-440,-152" Height="180"/>
+                    </UniformGrid>
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="DreamCatcherTab" HorizontalAlignment="Center" Height="20" Header="Dream Catcher" VerticalAlignment="Top" Width="469" Margin="0,-1,0,0">
+                <Grid Background="#FFE5E5E5">
+                    <Image
+                        x:Name="DreamImg1"
+                        Width="256"
+                        Margin="571,23,385,268"/>
+                    <Image
+                        x:Name="DreamImg2"
+                        Width="256"
+                        Margin="915,23,41,268"/>
+                    <Image
+                        x:Name="DreamImg3"
+                        Width="256"
+                        Margin="571,281,385,10"/>
+                    <Image
+                        x:Name="DreamImg4"
+                        Width="256"
+                        Margin="915,281,41,10"/>
+                    <TextBox
+                        x:Name="Input_Dream_Description"
+                        HorizontalAlignment="Left" 
+                        Margin="31,44,0,0" 
+                        TextWrapping="Wrap" 
+                        Text="your dream goes here..."
+                        KeyDown="Input_Dream_Description_KeyDown"
+                        VerticalAlignment="Top" 
+                        Width="400" 
+                        Height="135"/>
+                    <TextBlock 
+                        HorizontalAlignment="Left" 
+                        Margin="31,23,0,0" 
+                        TextWrapping="Wrap" 
+                        Text="Dream Description" 
+                        VerticalAlignment="Top"/>
+                    <TextBox
+                        x:Name="Input_Dream_Analysis"
+                        HorizontalAlignment="Left" 
+                        Margin="31,242,0,0" 
+                        TextWrapping="Wrap" 
+                        VerticalAlignment="Top"
+                        IsEnabled="False"
+                        Width="400" 
+                        Height="288"/>
+                    <TextBlock 
+                        HorizontalAlignment="Left" 
+                        Margin="31,221,0,0" 
+                        TextWrapping="Wrap" 
+                        Text="Dream Analysis" 
+                        VerticalAlignment="Top"/>
+                    <Button 
+                        Content="Analyze!" 
+                        HorizontalAlignment="Left" 
+                        Margin="468,86,0,0"
+                        Click="Button_Click"
+                        VerticalAlignment="Top" 
+                        Height="50" 
+                        Width="100"/>
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+
+    </Grid>
+
+</Window>

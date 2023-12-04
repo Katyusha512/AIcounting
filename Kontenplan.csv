@@ -1,0 +1,691 @@
+1000¢Cash on hand A
+1020¢Bank account A
+1040¢Cheques
+1041¢Promissory notes to collect
+1045¢Credit cards / Debit cards
+1050¢Short-term deposit investments
+1051¢Short-term fiduciary investments
+1060¢Stocks (listed)
+1061¢Participation certificates (listed)
+1062¢Investment funds (listed)
+1063¢Bonds (listed)
+1064¢Cryptocurrencies 
+1068¢Short-term securities fluctuation reserve
+1069¢Short-term securities value adjustments
+1070¢Financial derivatives
+1078¢Other short-term assets fluctuation reserve
+1079¢Other short-term assets value adjustments
+1090¢Internal transfers
+1091¢Transfer account for salaries
+1099¢Clarification account
+1100¢Receivables Switzerland
+1101¢Receivables abroad
+1129¢Receivables towards shareholders value adjustments
+1140¢Advances and loans
+1149¢Other short-term receivables towards third parties value adjustments
+1150¢Loans to subsidiary A
+1159¢Other short-term receivables towards group companies value adjustments
+1160¢Loans to person involved A
+1170¢Input tax on materials, goods, services and energy, cl. 4
+1175¢Settlement account VAT
+1176¢Withholding tax
+1177¢Receivables towards Directorate General of Customs
+1178¢Direct taxes
+1179¢Tax at source
+1180¢AHV, IV, EO, ALV current account
+1181¢Current account family allowance fund
+1182¢Current account pension funds
+1183¢Current account accident insurance
+1184¢Daily sickness benefits insurance current account
+1190¢WIR accounts
+1191¢Deposits
+1192¢Advance payments to suppliers
+1193¢Rent deposits
+1199¢Other short-term receivables value adjustments
+1200¢Inventories of commercial products A
+1207¢Change in commercial product inventories
+1208¢Advance payments for commercial products
+1209¢Commercial products inventories value adjustments
+1210¢Inventories of raw materials A
+1217¢Change in raw materials
+1218¢Advance payments for raw materials
+1219¢Raw material inventories value adjustments
+1220¢Inventories of finished products
+1221¢Inventories of semi-finished products
+1227¢Change in production material
+1228¢Advance payments for production material
+1229¢Production material inventories value adjustments
+1230¢Auxiliary material inventories
+1231¢Consumables inventories
+1232¢Packaging inventories
+1237¢Change in auxiliary material and consumables
+1238¢Advance payments for auxiliary material and consumables
+1239¢Auxiliary material and consumables value adjustments
+1240¢Compulsory inventories
+1247¢Changes in compulsory inventories
+1249¢Compulsory inventories value adjustments
+1250¢Goods on delivery
+1257¢Changes in goods on delivery
+1259¢Goods on delivery value adjustments
+1260¢Finished products
+1267¢Changes in finished products
+1269¢Finished products value adjustments
+1270¢Semi-finished products
+1277¢Changes in semi-finished products
+1279¢Semi-finished products value adjustments
+1280¢Non-invoiced services
+1287¢Changes in non-invoiced services
+1289¢Non-invoiced services value adjustments
+1300¢Prepaid expenses
+1301¢Accrued income
+1303¢Discount on liabilities
+1400¢Stocks
+1401¢Participation certificates 
+1402¢Investment funds 
+1403¢Bonds 
+1404¢Cryptocurrencies (Investments)
+1408¢Fixed assets securities fluctuation reserve
+1409¢Fixed assets securities value adjustments
+1410¢Long-term financial investments
+1411¢Rent deposits
+1419¢Other financial investments value adjustments
+1440¢Loans
+1441¢Mortgages
+1449¢Long-term receivables towards third parties value adjustments
+1450¢Loans to participation A
+1451¢Mortgages to participation A
+1459¢Long-term receivables towards participations value adjustments
+1460¢Loans/Mortgages to person involved A
+1470¢Employer contribution reserve
+1500¢Machinery and equipment
+1501¢Production plants
+1507¢Leased machinery and equipment
+1510¢Furniture and installations
+1511¢Workshop installations
+1512¢Shop installations
+1513¢Office furniture
+1517¢Leased furniture and installations
+1520¢Office machines
+1521¢Information technology
+1522¢Communication technology
+1527¢Leased office machines, information and communication technology
+1530¢Vehicle A
+1537¢Leased vehicles
+1540¢Tools and equipment
+1547¢Leased tools and equipment
+1550¢Storage facilities
+1557¢Leased storage facilities
+1570¢Fixed facilities
+1571¢Installations
+1572¢Movable structures
+1577¢Leased fixed facilities and installations
+1590¢Linen and work clothing
+1591¢Moulds and models
+1597¢Other leased movable tangible assets
+1600¢Commercial properties
+1606¢Commercial properties renovation
+1610¢Factories
+1617¢Leased factories
+1620¢Workshops and ateliers
+1630¢Warehouses
+1631¢Warehouses land
+1637¢Leased warehouses
+1640¢Exhibition buildings
+1641¢Sales buildings
+1642¢Sales buildings land
+1647¢Leased exhibition and sales buildings
+1650¢Office and administration buildings
+1657¢Leased office and administration buildings
+1660¢Staff housing
+1661¢Other residential buildings
+1662¢Other residential buildings land
+1667¢Leased residential buildings
+1680¢Undeveloped land
+1687¢Leased undeveloped land
+1700¢Patents
+1701¢Know-how
+1720¢Licences
+1721¢Concessions
+1722¢Rights of use
+1723¢Company rights
+1730¢Copyrights
+1731¢Publishing rights
+1732¢Contractual rights
+1740¢In-house developed software
+1741¢Purchased software and licences
+1750¢Own development
+1751¢Purchased development
+1770¢Goodwill
+1790¢Other intangible assets
+1850¢Unpaid share capital
+2000¢Costs of materials and goods payables
+2001¢Third-party/subcontracted services payables 
+2002¢Personnel expenses payables
+2004¢Other operating expenses payables
+2030¢Advance payments from third parties
+2050¢Payables due to participation A
+2060¢Payables due to person involved A
+2100¢Current account A
+2107¢Loan A
+2109¢Mortgage A
+2111¢WIR commitments
+2120¢Financial leasing commitments
+2130¢Bond loans
+2140¢Other onerous debts due to third parties
+2150¢Debts due to participation A
+2160¢Debts due to person involved A
+2200¢VAT due
+2203¢Acquisition tax
+2206¢Withholding tax
+2207¢Stamp duty
+2208¢Direct taxes
+2209¢Tax at source
+2210¢Debts due to third parties
+2250¢Debts due to participation A
+2260¢Debts due to person involved A
+2269¢Adopted distributions (dividends)
+2270¢AHV, IV, EO, ALV current account
+2271¢Family allowance fund current account
+2272¢Pension funds current account
+2273¢Accident insurance current account 
+2300¢Accrued expenses
+2301¢Next year's revenues received
+2303¢Receivables discount
+2330¢Provisions for warranty commitments 
+2391¢Other short-term provisions
+2420¢Financial leasing commitments
+2430¢Debenture loans
+2450¢Loans
+2451¢Mortgages
+2500¢Debts due to third parties
+2550¢Debts due to participation A
+2560¢Debts due to person involved A
+2630¢Provisions for warranty commitments 
+2691¢Other long-term provisions 
+2800¢Share capital category A
+2810¢Participation capital
+2900¢Premium at foundation or in the event of a capital increase
+2901¢Other contributions or allocations
+2902¢Premium from merger, demerger or asset transfer
+2903¢Reserves from capital contributions (fiscally recognised)
+2904¢Profit from capital reduction 
+2905¢Profit/loss from own capital share acquisition
+2950¢Legal retained earnings
+2955¢Revaluation reserve
+2959¢Reserves for own shares (indirect acquisition)
+2960¢Statutory retained earnings
+2961¢Decided retained earnings
+2962¢Profit/loss from own capital share acquisition
+2965¢Own shares
+2966¢Own participation certificates
+2970¢Profit or loss carried forward
+2971¢Interim dividend distribution
+2972¢Contribution of interim profit to the legal retained earnings
+2973¢Contribution of interim profit to the voluntary retained earnings
+2979¢Annual profit or loss
+2800¢Own capital 
+2801¢Spouse individual property 
+2820¢Capital contributions and capital withdrawals
+2821¢Individual property contributions and individual property withdrawals of the spouse
+2850¢Private cash withdrawals
+2851¢In kind withdrawals
+2852¢Private share of operating expenses
+2853¢Private flat rental value
+2854¢Private insurance premiums
+2855¢Private pension contributions
+2856¢Private taxes
+2891¢Annual profit or loss
+2800¢Partner A equity at the beginning of the financial year
+2810¢Partner A capital contributions and capital withdrawals
+2820¢Partner A cash withdrawals
+2821¢Partner A in kind withdrawals
+2822¢Partner A private share of operating expenses
+2823¢Partner A private flat rental value
+2824¢Partner A private insurance premiums
+2825¢Partner A private pension contributions
+2826¢Partner A private taxes
+2830¢Partner A annual profit or loss
+2850¢Limited partner A equity at the beginning of the financial year
+2860¢Limited partner A capital contributions and capital withdrawals
+2870¢Limited partner A cash withdrawals
+2871¢Limited partner A in kind withdrawals
+2872¢Limited partner A private share of operating expenses
+2873¢Limited partner A private flat rental value
+2874¢Limited partner A private insurance premiums
+2875¢Limited partner A private pension contributions
+2876¢Limited partner A private taxes
+2880¢Limited partner A annual profit or loss
+3000¢Gross revenues from product A 
+3001¢Gross revenues from retail credit sales
+3002¢Gross revenues from wholesale credit sales
+3007¢Gross revenues from ancillary services (postage and packing)
+3008¢Changes in receivables 
+3090¢Discounts
+3091¢Rebates and price reductions
+3092¢Refunds
+3093¢Commissions to third parties
+3094¢Collection charges
+3095¢Losses on receivables, changes in value adjustments
+3096¢Exchange rate differences
+3097¢Freights, postages
+3200¢Gross revenues from item A 
+3201¢Gross revenues from retail credit sales
+3202¢Gross revenues from wholesale credit sales
+3203¢Gross revenues from purchase prices
+3207¢Gross revenues from ancillary services (postage and packing)
+3208¢Changes in receivables 
+3290¢Discounts
+3291¢Rebates and price reductions
+3292¢Refunds
+3293¢Commissions to third parties
+3294¢Collection charges
+3295¢Losses on receivables, changes in value adjustments
+3296¢Exchange rate differences
+3297¢Freights, postages
+3400¢Gross revenues from provided service A
+3401¢Gross revenues on credit
+3407¢Gross revenues from ancillary services 
+3408¢Changes in receivables 
+3490¢Discounts
+3491¢Rebates and price reductions
+3492¢Refunds
+3493¢Commissions to third parties
+3494¢Collection charges
+3495¢Losses on receivables, changes in value adjustments
+3496¢Exchange rate differences
+3497¢Postages
+3600¢Revenues from raw materials
+3601¢Revenues from auxiliary materials
+3610¢Revenues from product A licence
+3619¢Decrease in revenues from licences, patents, etc.
+3670¢Revenues from staff provision
+3680¢Other revenues
+3690¢Discounts
+3691¢Rebates and price reductions
+3700¢Own production of movable tangible assets
+3701¢Own production of fixed tangible assets
+3702¢Own repair of movable tangible assets
+3703¢Own repair of fixed tangible assets
+3710¢Own consumption of product A
+3720¢Own consumption of product A
+3740¢Own consumption of provided service A
+3790¢In kind withdrawals
+3800¢Discounts
+3801¢Rebates and price reductions
+3802¢Refunds
+3803¢Commissions to third parties
+3804¢Collection charges
+3805¢Losses on receivables, changes in value adjustments
+3806¢Exchange rate differences
+3807¢Shipping costs
+3809¢VAT net tax rate
+3810¢Credit/debit card fees
+3860¢Changes in warranty provisions
+3861¢Changes in deductible provisions
+3900¢Changes in finished products inventories
+3901¢Changes in semi-finished products inventories
+3940¢Changes in non-invoiced services value
+4000¢Purchases of product A material 
+4006¢Third-party services
+4007¢Direct purchasing expenses
+4008¢Changes in inventories
+4009¢Purchase price reductions
+4060¢Sector A third-party services
+4070¢Incoming freight
+4071¢Import duties
+4072¢Incoming shipments
+4080¢Changes in sector A inventories
+4086¢Sector A material losses
+4090¢Discounts
+4200¢Purchases of resale product A
+4205¢Purchases of packing material
+4207¢Direct purchasing expenses
+4208¢Changes in inventories
+4209¢Purchase price reductions
+4270¢Incoming freight
+4271¢Import duties
+4272¢Incoming shipments
+4280¢Changes in sector A inventories
+4286¢Sector A loss of goods
+4290¢Discounts
+4400¢Expenses for service A
+4407¢Direct purchasing expenses
+4409¢Deductions obtained on purchases
+4470¢Direct purchase expenses for purchased services
+4490¢Discounts
+4500¢Heat electricity
+4501¢Industrial electricity
+4510¢Natural gas
+4511¢Liquid gas in cylinders
+4520¢Heating oil
+4521¢Coal, briquettes, wood
+4530¢Petrol
+4531¢Diesel
+4532¢Oil
+4540¢Water
+4600¢Other material costs of production
+4620¢Other costs of goods for resale 
+4640¢Other costs of services
+4650¢Packaging costs
+4660¢Changes in warranty provisions
+4661¢Changes in deductible provisions
+4700¢Incoming freight
+4701¢Import duties
+4702¢Incoming shipments
+4800¢Discounts
+4801¢Rebates and price reductions
+4802¢Refunds
+4803¢Purchasing commissions
+4804¢Exchange rate differences
+4900¢Changes in goods for resale inventories
+4901¢Changes in raw material inventories
+4902¢Changes in production material inventories
+4903¢Changes in auxiliary material and consumables inventories
+4904¢Changes in compulsory inventories
+4905¢Changes in goods on delivery inventories
+4980¢Material losses
+4986¢Losses of goods for resale
+5000¢Salaries 
+5001¢Allowances
+5002¢Profit-sharing
+5003¢Commissions
+5005¢Social insurance benefits
+5006¢Provision of personnel
+5007¢Social insurance expenses
+5008¢Other personnel expenses
+5009¢Benefits from third parties
+5070¢AHV, IV, EO, ALV
+5071¢Family allowance
+5072¢Pension funds
+5073¢Accident insurance
+5074¢Daily sickness benefits insurance 
+5079¢Tax at source
+5080¢Staff recruitment
+5081¢Education and training
+5082¢Reimbursements of actual expenses
+5083¢Reimbursements of flat-rate expenses
+5089¢Other personnel expenses
+5090¢Temporary staff
+5700¢AHV, IV, EO, ALV
+5710¢Family allowance
+5720¢Pension funds
+5730¢Accident insurance
+5740¢Daily sickness benefits insurance 
+5790¢Tax at source
+5800¢Advertisements of job openings 
+5801¢Recruitment commissions
+5810¢Training necessary for business needs
+5811¢Professional training
+5820¢Travel expenses
+5821¢Food expenses
+5822¢Accommodation expenses
+5830¢Management flat-rate expenses
+5831¢Executive Board flat-rate expenses
+5832¢Board of Directors flat-rate expenses
+5840¢Staff canteen meals
+5841¢Staff canteen beverages 
+5845¢Revenues for meals (as expense reduction)
+5846¢Revenues for beverages (as expense reduction)
+5880¢Staff events
+5881¢Company sports group
+5890¢Private share of personnel expenses
+6000¢Factory rent
+6001¢Workshop and atelier rent
+6002¢Warehouse rent
+6003¢Showrooms and shop floors rent
+6004¢Office and administration rooms rent
+6005¢Staff rooms rent
+6006¢Garage, parking rent
+6030¢Factory additional costs
+6031¢Workshop and atelier additional costs
+6032¢Warehouse additional costs
+6033¢Showrooms and shop floors additional costs
+6034¢Office and administration rooms additional costs
+6035¢Staff rooms additional costs
+6036¢Garage additional costs
+6040¢Factory cleaning
+6041¢Workshop and atelier cleaning
+6042¢Warehouse cleaning
+6043¢Showrooms and shop floors cleaning
+6044¢Office and administration rooms cleaning
+6045¢Staff rooms cleaning
+6050¢Factory maintenance
+6051¢Workshop and atelier maintenance
+6052¢Warehouse maintenance
+6053¢Showrooms and shop floors maintenance
+6054¢Office and administration rooms maintenance
+6055¢Staff rooms maintenance
+6056¢Garage maintenance
+6059¢Insurance services
+6060¢Factory leasing
+6061¢Workshop and atelier leasing
+6062¢Warehouse leasing
+6063¢Showrooms and shop floors leasing
+6064¢Office and administration rooms leasing
+6065¢Staff rooms leasing
+6066¢Garage leasing
+6070¢Ground rents
+6090¢Private share of facility expenses
+6100¢MRR machines and apparatuses
+6101¢MRR furniture and equipment
+6102¢MRR tools and devices 
+6105¢Leasing of manufacturing plants
+6110¢MRR shop equipment
+6111¢MRR showroom equipment
+6115¢Leasing of sales equipment 
+6120¢MRR central warehouse
+6121¢MRR warehouse A
+6125¢Leasing of warehouse equipment
+6130¢MRR office furniture
+6131¢MRR office machines
+6132¢MRR information technology
+6133¢MRR communication technology
+6135¢Leasing of office equipment
+6140¢MRR staff canteen furniture 
+6141¢MRR staff rooms furniture 
+6145¢Leasing of staff equipment
+6190¢Insurance services
+6200¢Repairs
+6201¢Services
+6202¢Cleaning
+6210¢Petrol
+6211¢Diesel
+6212¢Oil
+6213¢Electricity
+6220¢Liability insurance
+6221¢Comprehensive insurance
+6222¢Legal protection insurance
+6230¢Road taxes 
+6231¢Contributions
+6232¢Vehicle taxes
+6260¢Vehicle leasing
+6264¢Vehicle rentals
+6270¢Private share of vehicle expenses
+6280¢Freights
+6281¢Freight forwarder
+6282¢Cargo domicile
+6300¢Natural hazard insurance 
+6301¢Glass breakage insurance
+6302¢Theft insurance
+6310¢Business liability insurance
+6311¢Warranty insurance
+6312¢Legal protection insurance
+6320¢Business interruption insurance
+6330¢Death risk insurance
+6331¢Guarantee premiums
+6360¢Charges
+6361¢Fees
+6370¢Permits
+6371¢Operating licences
+6400¢Industrial electricity
+6401¢Heat electricity
+6402¢Electricity for lighting 
+6410¢Natural gas
+6411¢Liquid gas in cylinders
+6420¢Heating oil
+6421¢Coal, briquettes, wood
+6430¢Water
+6460¢Garbage collection
+6461¢Hazardous waste collection
+6462¢Waste water
+6500¢Office equipment
+6501¢Printers
+6502¢Photocopies
+6503¢Specialist publications, newspapers, periodicals
+6510¢Telephone
+6512¢Internet
+6513¢Postages
+6520¢Contributions
+6521¢Donations, grants
+6522¢Tips
+6530¢Bookkeeping
+6531¢Business consultancy
+6532¢Legal advice
+6540¢Board of Directors expenses
+6541¢General meeting expenses
+6542¢Auditing expenses
+6550¢Formation, capital increase and organisational expenses
+6551¢Collection and execution costs
+6555¢Management fees
+6559¢Other administration costs
+6560¢Private share of administration costs
+6570¢Hardware leasing
+6571¢Software leasing
+6572¢Hardware rent
+6573¢Software rent
+6580¢Licenses and updates expenses
+6581¢Hardware maintenance/hotline
+6582¢Software maintenance/hotline
+6583¢Consumables
+6585¢Dedicated phone line expenses
+6590¢Basic advice
+6591¢Individual development, individual adjustments
+6592¢Implementation costs
+6600¢Advertisements
+6601¢Radio advertising
+6602¢TV advertising
+6604¢Internet and social media
+6610¢Printed advertisements, advertising material
+6611¢Advertising items, samples, billboards and electronic adverts
+6620¢Shop windows, decorations
+6621¢Trade fairs, exhibitions
+6640¢Expenses 
+6641¢Customer care
+6642¢Gifts to customers
+6660¢Advertising contributions
+6661¢Sponsoring
+6670¢Customer events
+6671¢Media contacts
+6672¢Corporate anniversaries 
+6680¢Advertising consultancy
+6681¢Market analysis
+6690¢Private share of advertising expenses
+6700¢Business information
+6701¢Debt collection
+6710¢Operational safety
+6711¢Surveillance
+6720¢Project A research
+6721¢Project A development 
+6740¢Input tax correction (in the case of mixed use)
+6790¢Other operating expenses
+6791¢Private shares
+6800¢Fixed assets securities value adjustments
+6801¢Other financial assets value adjustments 
+6900¢Bank interest fees
+6901¢Loan interest fees
+6902¢Mortgage interest fees
+6903¢Default interest fees
+6904¢Interest fees from advance payments received
+6905¢Interest fees from financial leasing
+6920¢Person involved A interest fees
+6921¢Member of the Board of Directors A interest fees
+6922¢Member of Executive Board A interest fees
+6923¢Group company A interest fees
+6924¢Close person A interest fees
+6930¢Pension funds loans interest fees
+6940¢Bank charges
+6941¢Custody fees
+6942¢Exchange losses on short-term assets listed on the stock exchange
+6943¢Exchange losses on financial assets
+6944¢Exchange losses on interest-bearing debts
+6945¢Granted customer accounts 
+6946¢Exchange loss on cryptocurrencies 
+6947¢Factoring fee
+6949¢Currency losses
+6950¢Revenues from bank deposits
+6951¢Revenues from short-term financial investments
+6952¢Revenues from short-term securities
+6953¢Revenues from other short-term assets
+6960¢Revenues from fixed assets securities
+6961¢Revenues from other financial assets
+6962¢Revenues from participations
+6963¢Revenues from long-term receivables
+6980¢Revenues from person involved A
+6981¢Revenues from member of the Board of Directors A
+6982¢Revenues from member of Executive Board A
+6983¢Revenues from group company A
+6984¢Revenues from close person A
+6990¢Default interest income, remuneration interest
+6991¢Revenue from advance payments to suppliers
+6992¢Exchange gains on short-term assets listed on the stock exchange
+6993¢Exchange gains on financial assets
+6995¢Discounts received from suppliers
+6996¢Exchange gain on cryptocurrencies 
+6999¢Currency gains
+7000¢Gross profits
+7009¢Decrease in revenues
+7010¢Material costs
+7011¢Personnel expenses
+7012¢Facility expenses
+7013¢Maintenance, repairs, replacements, leasing expenses
+7014¢Vehicle and transport expenses
+7015¢Property insurance, charges, fees, permits
+7016¢Energy and disposal costs
+7017¢Administrative and IT expenses
+7018¢Advertising expenses
+7019¢Other expenses
+7502¢Rental income from commercial premises
+7503¢Rental income from flats
+7504¢Rental income from garages
+7505¢Opted rental income 
+7508¢Share of heating, lighting
+7509¢Other real estate income
+7510¢Mortgage interest fees
+7511¢Real estate maintenance
+7512¢Charges, fees, property taxes
+7513¢Insurance premiums
+7514¢Water, waste water
+7515¢Waste, disposal
+7516¢Administrative expenses
+7517¢Heating, lighting, water
+7518¢Depreciation and value adjustment
+7519¢Other real estate expenses
+8000¢Non-operating costs
+8100¢Non-operating revenues
+8500¢Extraordinary provisions
+8501¢Extraordinary depreciation and value adjustment
+8503¢Extraordinary currency losses
+8504¢Extraordinary losses on disposal of fixed assets
+8505¢Extraordinary losses on receivables
+8506¢Inconvenience compensation payments
+8510¢Dissolution of reserves
+8511¢Dissolution of provisions no longer required 
+8513¢Extraordinary currency gains
+8514¢Extraordinary gains on disposal of fixed assets
+8515¢Subsidies and other non-payments received with input tax reduction
+8516¢Donations and other non-payments received without input tax reduction
+8517¢Inconvenience compensation received
+8600¢Non-recurring expenses
+8610¢Non-recurring revenues
+8704¢Creation of employer contribution reserve
+8705¢Deductibles
+8709¢Other expenses unrelated to the period
+8710¢Revenues from insurance services or indemnity payments
+8711¢Revenues from refunds
+8712¢Revenues from reimbursements 
+8714¢Dissolution of employer contribution reserve 
+8719¢Other revenues unrelated to the period
+8900¢Taxes on profits
+8901¢Capital taxes
+8902¢Direct taxes unrelated to the period
+9200¢Profit or loss for the year
